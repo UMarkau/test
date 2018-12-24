@@ -1,0 +1,56 @@
+.table {
+    max-height: 70rem;
+    max-width: 130rem;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.table td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+.table__heading {
+    line-height: 1.7;
+    font-size: 2rem;
+}
+
+.table__heading--id {
+    width: 9rem;
+}
+
+.table__heading--address {
+    width: 35rem;
+}
+
+.table__heading--price,
+.table__heading--type {
+    width: 12rem;
+}
+
+.table__heading--lastUpdate,
+.table__heading--favorite {
+    width: 20rem;
+}
+
+.tableDataRow {
+    height: 9rem;
+    font-size: 1.5rem;
+}
+
+.favorite:hover {
+    cursor: pointer;
+}
+
+.favorite__isFavorite {
+    background-color: #ffff00;
+}
+
+.priceUp {
+    background-color: #90ee90;
+}
+
+.priceDown {
+    background-color: #f08080;
+ }
